@@ -1,0 +1,7 @@
+
+[http]
+        proxy = http://www-proxy:8080
+        sslverify = false
+[https]
+        proxy = http://www-proxy:8080
+
