@@ -37,6 +37,9 @@ It's becoming interesting. the code_server seems to be a server which handling a
 The code_server is started from the kernel application. During the init/0 of kernel.erl, the code_server is started and supervised by the kernel_sup.
 use appmon:start() and we can see the kernel_sup supervision tree. 
 
+THe following is a snampshot:
+![Kernel Supervision Tree] (./imgs/kernel_app_tree.png)
+
 code_server initialization during boot
 --------
 first, the code_server will register itself as code_server. 
